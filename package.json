@@ -8,7 +8,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Chellappan",
+    "email": "vrchellappan@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
