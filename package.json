@@ -1,5 +1,5 @@
 {
-  "name": "json-ts",
+  "name": "json-ts-cli",
   "version": "1.0.0",
   "description": "Cli to convert JSON to TS Interface",
   "bin": {
