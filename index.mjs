@@ -17,7 +17,7 @@ if(command?.split("=")){
 switch(cmd){
   case '--file':
   case '-f':{
-    if(p){
+    if(filePath){
       try {
         const json = await fs.readFile(filePath);
         const jsoToTs = await compile(
@@ -25,7 +25,7 @@ switch(cmd){
           "test",
           { bannerComment: "" }
         );
-        const toFile = p.split(".").shift() || "test";
+        const toFile = filePath.split(".").shift() || "test";
         fs.writeFile(`${toFile}.ts`, jsoToTs);
         console.log(`[${toFile}.ts] ${chalk.green('Interface file created succefully')} 🚀`);
       } catch (error) {
