@@ -1,0 +1,19 @@
+{
+  "name": "json-ts",
+  "version": "1.0.0",
+  "description": "Cli to convert JSON to TS Interface",
+  "bin": {
+    "toTs": "./index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "genson-js": "0.0.8",
+    "json-schema-to-typescript": "^10.1.5",
+    "to-json-schema": "^0.2.5"
+  }
+}
