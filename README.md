@@ -4,7 +4,7 @@
 
 ```sh
 # Using NPM:
-npm install -g toTs
+npm install -g json-ts-cli
 
 ```
 
