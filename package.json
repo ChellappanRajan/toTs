@@ -6,7 +6,9 @@
     "toTs": "./index.mjs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .  --ext .mjs",
+    "lint-fix": "eslint --fix .  --ext .mjs"
   },
   "author": {
     "name": "Chellappan",
@@ -18,5 +20,9 @@
     "genson-js": "0.0.8",
     "json-schema-to-typescript": "^10.1.5",
     "to-json-schema": "^0.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
